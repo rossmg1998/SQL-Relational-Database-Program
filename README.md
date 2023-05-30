@@ -1,38 +1,49 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a program where I create a database--that includes multiple tables--to store data information.
 
-{Provide a description of the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+My program includes insert statements for each table created, update and delete demonstrations, and multiple queries that retrieve data from the database.
 
-{Describe your purpose for writing this software.}
+My purpose for writing this software is to gain some experience with the step-by-step process of creating SQL Relational Databases from the ground up.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[SQL Relational Database Demo Video](http://youtube.link.goes.here)
 
 # Relational Database
 
-{Describe the relational database you are using.}
+This relational database presents the gameplay details of the classic video game Super Mario Bros.
 
-{Describe the structure (tables) of the relational database that you created.}
+This relational database includes 12 tables total.
+
+Main Tables:
+- World
+- Level
+- Level Theme
+- Theme Music
+- Secret Area
+- Powerup
+- Enemy
+
+Tables with a Many-to-Many Relationship with the Main Tables:
+- Level Has Theme
+- Level Has Theme Music
+- Level Has Secret Area
+- Level Has Powerup
+- Level Has Enemy
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+- SQL (Structured Query Language) - a standard language for accessing and manipulating databases
+- MySQL Workbench
+- Visual Studio Code
+- GitHub
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [SQL - W3Schools](https://www.w3schools.com/sql/)
+- [SQL Tutorial - Tutorialspoint](https://www.tutorialspoint.com/sql/index.htm)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- GROUP BY statement & HAVING clause
+- MIN & MAX functions
+- Filtering within a date or time range
